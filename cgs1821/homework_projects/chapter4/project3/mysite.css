@@ -1,0 +1,225 @@
+/*
+	Name: M Conley
+    Current Date: 6/24/2016
+    Class.section: CGS1820.CM2
+    Assignment: Week 7 Project 3
+    Language: CSS
+    Purpose: for final project
+    Includes: index.html, practices.html, statistics.html, other-hazards.html
+*/
+
+body {
+  font-family: serif;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 16px;
+}
+
+#wrapper {
+  max-width: 90%;
+  margin: auto;
+  padding: 15px 10px 15px 10px;
+  margin-bottom: 10px;
+  background-image: url(images/cross1.png);
+  background-attachment:fixed;
+  margin-right: auto;
+  margin-left: auto;
+  background-size: 150px;
+
+}
+
+#container {
+  margin: 0 140px;
+  background-color: #FFF;
+}
+
+.header {
+  background-color: #FF7736;
+  color: #ffe8c7;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 2px 2px 4px #888888;
+}
+
+.nav {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px 5px 5px 5px;
+  margin: 4px 0px 3px 0px;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin: auto;
+}
+
+nav li {
+  display: inline-block;
+  box-shadow: 2px 2px 4px #888888;
+  background-color: #9FB3C7;
+}
+
+ul a {
+  display: block;
+  text-decoration: none;
+  padding: 1px 10px;
+  color: #054A8C;
+}
+
+li a.active {
+  background-color: #105598;
+  color: #73a2d0;
+}
+
+main {
+  margin: 0 20px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+div figure {
+  text-align: center;
+  margin: 5px 20px;;
+  font-size: 12px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+}
+
+#hazmat {
+  width: 70px;
+}
+
+#fire {
+  width: 70px;  
+}
+
+/* column1, column2 are for cleaning-hazards.html */
+
+#column1 {
+  float: right;
+  width: 65%;
+  background-color: #FFF;
+}
+
+#column2 {
+  float: left;
+  width: 25%;
+  margin: 0 5px;
+  border: dashed;
+  border-color: #FF7736;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #ffe8c7;
+}
+
+#column1 img {
+  width: 300px;
+}
+
+/* column3, column4, and column5 are for other-hazards.html */
+
+#column3 {
+  float: left;
+  width: 400px;
+  text-align: justify;
+}
+
+#column4 {
+  float: left;
+  margin: 0 90px;
+  width: 400px;
+  text-align: justify;
+}
+
+#column5 {
+  float: right;
+  width: 400px;
+  text-align: justify;
+}
+
+/* column6 and column7 are for emergency-contacts.html */
+
+#column6 {
+  float: left;
+  width: 75%;
+  margin: 0 5px;
+  background-color: #fff;
+}
+
+#column7 {
+  float: right;
+  text-align: center;
+  width: 20%;
+  margin: 0 2px 5px 2px;
+  padding: 0 4px 5px 4px;
+  font-size: 14px;
+  border-style: dotted;
+  border-width: 1px;
+  line-height: 100%;
+  border-color: #FF7736;
+  background-color: #ffe8c7;
+}
+
+#column7 li {
+  text-align: left;
+  padding-bottom: 5px;
+}
+
+#container2 {
+  margin: 0 auto;
+}
+
+#column3 img {
+  width: 45px;
+}
+
+span {
+  color: #FF0000;
+  font-weight: bold;
+}
+
+h3 {
+  text-align: center;
+}
+
+.image {
+  float: right;
+  border-width: 3px;
+  max-width: 211px;
+  height: auto;
+}
+
+.footer {
+	text-align: center;
+	font-size: 13px;
+	font-family: monospace;
+  background-color: #FF7736;
+  color: #ffe8c7;
+  border-top: 1px solid #FF7736;
+  border-bottom: 1px solid #FF7736;
+  box-shadow: 2px 2px 4px #888888;
+}
+
+#cleaners {
+  padding: 20px;
+  position: relative;
+  bottom: 10px;
+  width: 240px;
+}
+
+.clear {
+  clear: both;
+}

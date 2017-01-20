@@ -1,0 +1,123 @@
+/*
+
+
+CGS1820 
+	Module 9 
+	Chapter 6 Hands-On Case Study 
+	
+	Author: Mark Conley 
+	Date: 6/25/2014
+	
+	File name: prime.css 
+	Supporting files: index.html, financing.html, listings.html
+
+
+*/
+
+#left{
+	float: left;
+	width: 150px;
+}
+
+#left a{
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	color: #FFFFCC;
+	font-weight: bold;
+	border: 3px outset #CCCCCC;
+	padding: 5px;
+}
+
+#left a:link{ background-color: #003366;}
+#left a:visited{ background-color: #487B21;}
+#left a:hover{ border: 3px inset #333333;}
+
+#right{
+	margin-left: 180px;
+	margin-right: 20px;
+	padding: 0 20px 20px 0;
+}
+
+body {
+	background-color: #000033;
+	color: #003300; 
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(images/primediagonal.png);
+}
+
+h2{
+	color: #003366;
+}
+	
+h3{
+	color: #006600;
+	padding-top: 10px;
+}
+
+img{
+	border-style: none;
+}
+
+dd{
+	font-style: italic;
+	font-size: .80em;
+	line-height: 200%;
+}
+
+
+#left ul{
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+#header{
+	color: #48751a;
+}
+
+.nav{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.contact{
+	font-size: .80em; font-family:
+	"Times New Roman", serif;
+	font-weight: bold;
+}
+
+.floatleft{
+	/*float left 20px*/
+}
+
+.class{
+	/* clear float left */
+}
+
+#footer{
+	font-style: italic;
+	font-size: .60em;
+	font-weight: bold;
+	/*clear float*/
+}
+
+#wrapper{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #ffffcc;
+	min-width: 700px;
+	padding-right: 0;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-top: 0;
+	border: 1px ridge #00332b;
+	-webkit-box-shadow: inset -3px -3px 3px 3px #00332b;
+	-moz-box-shadow: inset -3px -3px 3px 3px #00332b;
+	box-shadow: inset -3px -3px 3px 3px #00332b;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+

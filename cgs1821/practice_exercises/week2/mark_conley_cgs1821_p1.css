@@ -1,0 +1,94 @@
+/*
+  Name: M Conley
+  Current Date: 01/06/2017
+  Class.section: CGS1821.0M1
+  Assignment: Week 3 Project 1
+  Language: CSS
+  Purpose: For styling site.
+  Includes: Dropkick Murphy Nova Rock.jpg, band.html
+*/
+
+html, body, header, h1{
+    padding: 0;
+    margin: 0;
+} /*This is a reset that reduces browser inconsistencies */
+
+body {
+  padding: 20px 20px 10px 20px;
+  margin: 15px 50px 0 50px;
+}
+
+header {
+  padding: 20px 20px 10px 20px;
+  margin: 15px 50px 0 50px;
+  background-color: #136729;
+  box-shadow: 0 4px 8px 0 #80C291;
+  font-family: 'Sancreek', cursive;
+  font-size: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 20px 50px 0 50px;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+}
+
+caption {
+
+}
+
+tr {
+
+}
+
+th,
+td {
+  border: 3px solid #0000cc;
+  padding: 5px 10px;
+}
+
+th {
+  font-weight: bold;
+  background-color: #314077;
+  color: #7C87B1;
+}
+
+tr {
+  background-color: #80C291;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+footer {
+  padding: 7px;
+  margin: 15px 50px;
+  background-color: #FFD3A8;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 450px;
+}
+
+.hyperlink {
+  text-decoration: none;
+}

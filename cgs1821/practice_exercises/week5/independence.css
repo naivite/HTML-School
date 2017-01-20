@@ -1,0 +1,99 @@
+/* 
+    Name: M Conley
+    Current Date: 6/6/2016
+    Class.section: CGS1820.CM2
+    Assignment: Week 5 Exercise 7
+    Language: HTML5
+    Purpose: Personal website design.
+    Includes: finaldraft.html, signatures.html, independence.css
+*/
+
+
+
+header {
+	background-color: #AA8039;
+	color: #F7D9A7;
+	font-family: monospace;
+	text-align: center;
+}
+
+nav {
+	background-color: #C4C4C4;
+	color: #8078A9;
+	font-family: 'Linden Hill', serif;
+	text-align: center;
+}
+
+body {
+	font-size: 17px;
+	font-family: sans-serif, serif;
+	color: #000;
+}
+
+footer {
+	background-color: #AA8039;
+	color:  #F7D9A7;
+	font-family: monospace;
+	font-size: 12px;
+	font-style: italic;
+	text-align: center;
+}
+
+.final-draft {
+	font-family: 'Michroma', sans-serif;
+}
+
+.adams-jeff {
+	font-family: 'Quicksand', sans-serif;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+.jefferson-quote {
+	color: #006AFF;
+}
+
+#adams-quote {
+	color: #C40404;
+}
+
+#stories {
+	font-family: 'Arvo', serif;
+}
+
+#text-of-draft {
+	font-family: 'Lobster', cursive;
+}
+
+#common-sense {
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.freedom {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#laws {
+	font-family: 'Maven Pro', sans-serif;
+	color: #B700FF;
+}
+
+#oppression {
+	font-family: 'Quicksand', sans-serif;
+}
+
+#represent {
+	font-family: 'Quattrocento', sans-serif;
+	color: #079141;
+}
+
+.signatures {
+	font-family: 'Zeyada', cursive;
+}
+
+dt {
+	font-family: 'Boogaloo', cursive; 
+	color: #827BAB;
+}

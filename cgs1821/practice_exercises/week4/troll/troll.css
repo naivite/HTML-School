@@ -1,0 +1,85 @@
+/*
+  Author: M Conley
+  Current Date: 5/30/2016
+  Class.section: CGS1820.CM2
+  Assignment: Week 4 Exercise 6
+  Language: CSS3
+  Purpose: Making a stylesheet, for troll.html, to learn CSS3.
+  File name: troll.css
+  Includes: troll.html
+*/
+
+html, body, header, h1{
+    padding: 0;
+    margin: 0;
+} /*This is a reset that reduces browser inconsistencies */
+
+body { 
+    background-color: #E6E6FA;
+    color: #191970;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+header { 
+
+}
+
+h1 {
+    background-color: #191970;
+    color: #E6E6FA;
+    line-height: 200%;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 3px 3px 5px #CCCCCC;
+    text-align: center;
+}
+
+h2 {
+    background-color: #AEAED4;
+    color: #191970;
+    font-family: Georgia, "Times New Roman", serif;
+    text-align: center;
+}
+
+p {
+	font-size: .90em;
+	text-indent: 3em;
+}
+
+ul {
+	font-weight: bold;
+}
+
+nav { 
+   font-weight: bold;
+   font-size: 1.25em;
+   text-align: center;
+}
+
+footer { 
+    color: #333333;
+    font-size: .75em;
+    font-style: italic;
+    text-align: center;
+}
+
+.feature {
+	color: #C70000;
+}
+
+.company {
+	font-weight: bold;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.25em;
+}
+
+#wrapper {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav a {
+	text-decoration: none;
+	margin-right: 5px;
+	margin-left: 5px;
+}

@@ -1,0 +1,72 @@
+Mark Conley
+
+Web Research
+
+
+	1. 
+		A. Tim Berners-Lee founded the W3C in 1994, at the MIT, with support from CERN, ARPA 
+	and the European Commission.  The vision was to standardize how the web is built and 
+make content available to anyone.
+
+		B. Membership is open to all types of organizations and the cost to join varies country to country and is dependent on what the organization is.
+
+		C. Semantic Web allows a common format for integration of data from a multitude of resources; instead of concentrating on the interchange of documents.  This will allow doctors or scientists to collaborate work, which 			may help aid research.  In doing a semantic web, data won't be controlled by applications that keep to itself.
+
+	2.
+		A. To provide leadership in Internet related standards, education, and polices. It is dedicated to ensuring the open development, evolution, and use of the Internet for the benefit of all people throughout the world.
+	
+		B. The local chapter to me is in Washington DC.  The URL is http://www.isoc-dc.org/ 
+and SOC-DC’s mission is to serve the Internet community by promoting the mission and 
+values of the Internet Society, by serving as a 			prominent forum in shaping discourse 
+about Internet policy issues.
+
+		C. Individual Membership is free. I would recommend that a beginning developer not join, until they fully understand the basics of development; and once they've got an understanding in this then join.  This will allow 			them to gain access to conferences held by the Internet Society and attend educational events. They may also have new ideas to improve on what's already there, and become the voice for what will help sustain a healthy 			Internet.
+
+	3.
+		A. It is open to anyone with an interest in enhancing their career development and who wishes to join, and completes the information requested on their site. Alternatively, if you would like to send a check, please print 		out this page and mail the check with the appropriate fees to us at:
+
+			Cost and How to Join
+
+			WOW
+			P.O. Box 1743
+			Folsom, CA 95763
+			Membership pricing is annual. Membership classes are as follows:
+
+			Student – $29 USD
+			Government/Educational – $49 USD
+			Individual – $69 USD
+			Small Business – $250 USD
+			Education Alliance – $299 USD
+			Corporate – contact us for additional information for details.
+
+		B. Iron Chef of Information Security would be an event that I
+ would be interested in attending.  This event attempts to educate attendees about
+ security issues, with hands on approaches.  They offer "edutainment", where 		they 
+educate in an entertaining fashion.
+
+		C. List three ways that WOW can help you in your future career as a web developer.  
+		
+			1) Shows accreditation with a professional certification, that makes you more desirable. 
+		
+			2) Keeps you up to date with information and technologies.  
+		
+			3) Provides the ability to search for jobs.
+
+
+Focus on Web Design
+		
+	A. http://en.wikipedia.org/wiki/Main_Page
+
+	B. Wikipedia is a free Internet encyclopedia, which is maintained by volunteers.  Its purpose to provide information, as a traditional encyclopedia does.
+
+	C. People who are looking for information on a number of topics, generally students.
+
+	D. For the most part, it does reach its intended audience.  It can help students find information for school projects.
+
+	E. This site is useful to me, as a starting ground for research.  It can help point me in the correct direction; but I do not cite directly from it.  Since it is a wiki, it can be edited by anyone; thus it may contain false 		information.
+
+	F. The site appeals to me with its ease of navigation.  The pages have references to where I can find more information on the topics.  The pages also contain links to other wiki's, if you happen to become curious on something 		else.  An example would be if someone researched "Atomic Bomb", from there you can click on different types of force, fission and fusion.  From click on one of those, you'll get more information on those specific topics.  			Wikipedia organization is appealing to me.   
+
+	G. I would encourage anyone to use this site, as a starting point for research topics.  I would also encourage anyone knowledgeable in a specific topic, to review it and ensure its credibility.
+
+	H. The site could be improved by the accuracy of its content.  Perhaps put into place areas that are known to be truthful, because someone credible gave it "their seal of approval".

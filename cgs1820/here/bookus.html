@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Content set to English -->
+ <head>
+
+ <!--
+ Name: M Conley
+ Current Date:
+ Class.section: CGS1821.0M1
+ Assignment:
+ Language: HTML5
+ Purpose:
+ Includes: index.html, information.html, gallery.html, styles.css
+ -->
+
+	 <meta charset="utf-8">
+	 <!-- Sets compatible for Edge browser -->
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	 <!-- Sets support for mobile browsers -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <title>Book Us</title>
+	 <!-- Stylesheet -->
+	 <link rel="stylesheet" type="text/css" href="styles.css">
+ </head>
+
+<body>
+	<header>
+		<div class="header">
+		  <h1>Big Time Charter</h1>
+      <div>
+  			<nav class="header-nav">
+  				<ul>
+  					<li class="nav-button"><a href="index.html">Home</a></li>
+  					<li class="active nav-button"><a href="bookus.html">Book Us</a></li>
+  					<li class="nav-button"><a href="gallery.html">Gallery</a></li>
+  					<li class="nav-button"><a href="information.html">Information</a></li>
+  				</ul>
+  			</nav>
+  		</div>
+		</div>
+	</header>
+
+<main>
+	<div>
+		<table>
+			<caption>Fishing Rate</caption>
+			<thead>
+				<tr>
+					<th>Length</th>
+					<th>Cost</th>
+					<th>Passengers</th>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<th colspan="3">Other rates available upon request</th>
+				</tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<td>4</td>
+					<td>$400.00</td>
+					<td rowspan="4">Up to 6</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>$600.00</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>800.00</td>
+				</tr>
+				<tr>
+					<td>12</td>
+					<td>$1300.00</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div>
+		<p>A $100.00 deposit will confirm your reservation, and it can be taken by calling 850-227-4251.</p>
+	</div>
+<hr />
+<div>
+	<form>
+		<div id="form">
+
+			I am interested in book a
+			<select>
+				<option value="4">4</option>
+				<option value="6">6</option>
+				<option value="8">8</option>
+				<option value="10">10</option>
+				<option value="12">12</option>
+			</select>
+
+			hour trip for <input type="date" required>*<br /><br />
+
+		  	Name: <input type="text" name="name" title="Whole name" required>
+				Address: <input type="text" name="address" title="Mailing Address">
+				City: <input type="text" name="city" title="City">
+				State: <input type="text" name="state" title="State">
+				Zip Code: <input type="text" name="zipcode" title="Zip Code">
+	    	Telephone: <input type="tel"	name="telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Contact Number" required>
+				Email: <input type="email" name="email" title="Email Address" required>
+				Inquiries: <textarea name="inquiries" cols="30" rows="6" id="inquiry" required></textarea>
+
+	    		<button class="submit" type="submit">Submit</button>
+					<button type="reset" value="Reset">Reset</button>
+
+			<small> Please allow 48-72 hours for a response.  Thank you. </small>
+		</div>
+	</form>
+</div>
+
+<div>
+	<div id="address">
+	<h4>Marina Address</h4>
+		<ul>
+			<li><abbr title="Captain">Capt</abbr> John Lee<br /></li>
+			<li>Big Time Charters</li>
+			<li>1850 39th Ave</li>
+			<li>Mexico Beach, FL 32410</li>
+		</ul>
+	</div>
+
+	<div id="contact">
+	<h4>Contact Information</h4>
+		<ul>
+			<li>Reservations: 555-555-5555</li>
+			<li>Fax:</li>
+			<li>Email: <a href="mark.conley@my.sfcollege.edu">mark.conley@my.sfcollege.edu</a>
+			<li>Map: <a href="https://www.google.com/maps/place/104+Miramar+Dr,+Mexico+Beach,+FL+32456/@29.952781,-85.427554,19z/data=!3m1!4b1!4m2!3m1!1s0x88949b3001ffd6af:0x19f2b6b1f4887a08" target="_blank" title="Directions">Directions</a></li>
+		</ul>
+	</div>
+</div>
+</main>
+
+	<footer>
+		<div>
+		<div class="footer-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="bookus.html">Book Us</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="information.html">Information</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-copyright">
+		&copy; 2017 Big Time Charters
+		</div>
+</div>
+	</footer>
+</body>
+</html>

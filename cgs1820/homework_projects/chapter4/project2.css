@@ -1,0 +1,68 @@
+/*
+	Name: M Conley
+    Current Date: 6/13/2016
+    Class.section: CGS1820.CM2
+    Assignment: Week 6 Project 2
+    Language: CSS
+    Purpose: To demonstrate a mastery of the use of various ids, styles and descendant styles.
+    Includes: project2.html
+*/
+
+body {
+	background-color: #DAC08C;
+	font-family: arial;
+	font-size: 15px;
+}
+
+footer {
+	background-color: #DAC08C;
+	font-size: 10px;
+}
+
+#wrapper {
+	text-align: center;
+	margin-right: 10%;
+	margin-left: 10%;
+	background-color: #EBD2A0;
+}
+
+.image {
+	border: double;
+	border-width: 5px;
+	border-spacing: 10px;
+}
+
+#place, #time {
+	font-style: normal;
+	font-size: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+p#prelude {
+	font-style: italic;
+	font-size: 12px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#prelude span {
+	font-weight: bold;
+	font-size: 14px;
+	font-family: 'Times New Roman';
+}
+
+.speech {
+	font-family: 'Great Vibes', cursive;
+	font-size: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+p span {
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 12px;
+}
+
