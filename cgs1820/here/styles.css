@@ -86,9 +86,10 @@ html {
 }
 
 body {
-  margin: 25px;
-  padding: 15px;
-  background-color: orange;
+  margin: 25px 75px;
+  padding: 30px;
+  background-color: yellow;
+  box-shadow: 2px 4px 12px #000;
 }
 
 a {
@@ -96,12 +97,10 @@ a {
 }
 
 a:link {
-	color: blue;
 	text-decoration: none;
 }
 
 a:visited {
-	color: white;
  	text-decoration: none;
 }
 
@@ -109,17 +108,17 @@ header {
   margin-left: 30px;
   margin-right: 30px;
   padding-bottom: 40px;
-  background-color: #3D68B8;
-  color: #fff;
+  color: #000;
+  box-shadow: 1px 1px 3px #223;
+  background-color: lightblue;
 }
 
 .header-nav {
-	color: #5a5a5a;
 	font-size: 11px;
 	font-weight: bold;
 	padding: 14px 10px;
 	text-transform: uppercase;
-	background-color: #a1ffff;
+  background-color: navy;
 }
 
 .header-nav ul {
@@ -152,21 +151,31 @@ h1 {
 }
 
 main {
-  margin: 0px 70px;
-  background-color: green;
-  padding-top: 30px
+  width: 94.75%;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: lightgreen;
 }
 
-#table-1 {
-	position: relative;
-	float: inherit;
-	display: list-item;
+.col {
+  width: 50%;
+  float: left;
+  text-align: center;
+  background-color: purple;
 }
 
-#table-2 {
-	position: relative;
-	float: inherit;
-	display: list-item;
+.col1{
+  list-style-type: none;
+  background-color: brown;
+}
+
+.col2 {
+	list-style-type: none;
+  background-color: blue;
+}
+
+.column {
+
 }
 
 footer {
@@ -177,6 +186,7 @@ footer {
     font-size: 14px;
     background-color: #a1ffff;
     color: #5a5a5a;
+    clear: both;
 }
 
 .footer-nav ul {
