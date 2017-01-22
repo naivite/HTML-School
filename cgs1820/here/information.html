@@ -13,9 +13,12 @@
  	-->
 
  		<meta charset="utf-8">
+    <!-- Sets compatible for Edge browser -->
  		<meta http-equiv="X-UA-Compatible" content="IE=edge">
- 		<title>Information</title>
- 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Sets support for mobile browsers -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</title>
+    <!-- Stylesheet -->
  		<link rel="stylesheet" type="text/css" href="styles.css">
 
     <!--
@@ -34,20 +37,149 @@
  	</head>
 
  	<body>
- 		<header>
-  		  <h1 class="header">Big Time Charter</h1>
+    <!--Start of Header-->
+    <header>
+  		<h1 class="header">Big Time Charter</h1>
 
- 			<nav class="header-nav">
-        <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="bookus.html">Book Us</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li class="active"><a href="information.html">Information</a></li>
-      </ul>
- 			</nav>
- 		</header>
+      <nav class="header-nav">
+  			<a href="index.html">Home</a>
+  			<a href="bookus.html">Book Us</a>
+        <a href="information.html" class="active">Information</a>
+  		  <a href="gallery.html">Gallery</a>
+      </nav>
+  	</header>
+    <!--End of Header-->
 
  		<main>
+      <p>The Captain and crew are aware of all current closures and regulations with all local and federal waters.  The information provided below, is if there is a specific species you're interested in.  If you'd like more information, you can send us an message or check out <a href="http://myfwc.com/fishing/saltwater/recreational/">Florida Fish and Wildlife</a> website.</p>
+      <table>
+        <caption>2017 Recreational Seasons</caption>
+        <thead>
+          <tr>
+            <th>Species</th>
+            <th>Jan</th>
+            <th>Feb</th>
+            <th>Mar</th>
+            <th>Apr</th>
+            <th>May</th>
+            <th>Jun</th>
+            <th>Jul</th>
+            <th>Aug</th>
+            <th>Sep</th>
+            <th>Oct</th>
+            <th>Nov</th>
+            <th>Dec</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <th>Species</th>
+            <th>Jan</th>
+            <th>Feb</th>
+            <th>Mar</th>
+            <th>Apr</th>
+            <th>May</th>
+            <th>Jun</th>
+            <th>Jul</th>
+            <th>Aug</th>
+            <th>Sep</th>
+            <th>Oct</th>
+            <th>Nov</th>
+            <th>Dec</th>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr>
+            <td>Amberjack, Greater</td>
+            <td class="allowed">Open</td>
+            <td class="allowed">Open</td>
+            <td class="allowed">Open</td>
+            <td class="allowed">Open</td>
+            <td class="allowed">Open</td>
+            <td class="not-allowed">Closed</td>
+            <td class="not-allowed">Closed</td>
+            <td class="allowed">Open</td>
+            <td class="allowed">Open</td>
+            <td class="allowed">Open</td>
+            <td class="allowed">Open</td>
+            <td class="allowed">Open</td>
+          </tr>
+          <tr>
+            <td>Gag Grouper</td>
+            <td class="not-allowed">Closed</td>
+            <td class="not-allowed">Closed</td>
+            <td class="not-allowed">Closed</td>
+            <td class="not-allowed">Closed</td>
+            <td class="not-allowed">Closed</td>
+            <td colspan="7" class="allowed">Open June 1 - Dec. 31</td>
+          </tr>
+          <tr>
+            <td>Permit</td>
+            <td class="not-allowed">Closed</td>
+            <td class="not-allowed">Closed</td>
+            <td class="not-allowed">Closed</td>
+            <td class="not-allowed">Closed</td>
+            <td colspan="4" class="not-allowed">Special Permit Zone <acronym title="Special Permit Zone">(SPZ)</acronym></td>
+            <td class="not-allowed">Closed</td>
+            <td class="not-allowed">Closed</td>
+            <td class="not-allowed">Closed</td>
+            <td class="not-allowed">Closed</td>
+          </tr>
+          <tr>
+            <td>Snapper, Red</td>
+            <td colspan="12" class="not-allowed">Check back for 2017 season dates</td>
+          </tr>
+          <tr>
+            <td>Snook</td>
+            <td class="not-allowed">Closed</td>
+            <td class="not-allowed">Closed</td>
+            <td class="allowed">Open</td>
+            <td class="allowed">Open</td>
+            <td class="not-allowed">Closed</td>
+            <td class="not-allowed">Closed</td>
+            <td class="not-allowed">Closed</td>
+            <td class="not-allowed">Closed</td>
+            <td class="allowed">Open</td>
+            <td class="allowed">Open</td>
+            <td class="allowed">Open</td>
+            <td class="not-allowed">Closed</td>
+          </tr>
+          <tr>
+            <td>Triggerfish, Gray</td>
+            <td class="not-allowed">Closed</td>
+            <td class="not-allowed">Closed</td>
+            <td colspan="8" class="not-allowed">Jan 1 - Dec 31, 2017 Check back for limited season dates</td>
+            <td class="not-allowed">Closed</td>
+            <td class="not-allowed">Closed</td>
+          </tr>
+        </tbody>
+      </table>
+      <h4>2017 Recreationl Species with No Closed Season</h4>
+      <ul>
+        <li>Bonefish (catch and release only)</li>
+        <li>Black Drum</li>
+        <li>King Mackerel</li>
+        <li>Sheepshead</li>
+        <li>Spanish Mackerel</li>
+        <li>Snapper (all snappers except red)</li>
+        <li>Mullet</li>
+        <li>Spotted Seatrout</li>
+        <li>Bluefish</li>
+        <li>African Pompano</li>
+        <li>Lionfish</li>
+        <li>Cobia</li>
+        <li>Florida Pompano</li>
+        <li>Dolphin, Mahi</li>
+        <li>Red Drum (redfish)</li>
+        <li>Tripletail</li>
+        <li>Flounder</li>
+        <li>Black Sea Bass</li>
+        <li>White Grunt</li>
+        <li>Hogfish</li>
+        <li>Whiting</li>
+        <li>Shark (Non-prohibited species)</li>
+        <li>Groupers (Non-prohibited species)</li>
+      </ul>
  		</main>
 
     <!--Start Footer-->
@@ -60,11 +192,10 @@
             <li><a href="information.html">Information</a></li>
     			</ul>
     		</nav>
-
     		<span class="footer-copyright">
     		&copy; 2017 Big Time Charters
       </span>
-
     	</footer>
+      <!--End of Footer-->
  	</body>
  </html>
