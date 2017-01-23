@@ -15,13 +15,16 @@ html, body, header, h1{
 } /*This is a reset that reduces browser inconsistencies */
 
 html {
-  background-color: #f1f1f1;
+  background-color: #11567F;
 }
 
 body {
-  margin: 25px 75px;
+  margin: 25px 130px;
   padding: 30px;
+  border-radius: 22px;
   box-shadow: 2px 4px 12px #000;
+  background-color: #BDE2FE;
+  font-family: 'Droid Sans', sans-serif;
 }
 
 header {
@@ -30,24 +33,48 @@ header {
   padding-bottom: 40px;
   color: #000;
   box-shadow: 1px 1px 3px #223;
+  background-color: #FAFDFF;
+  text-align: left;
 }
 
 h1 {
-	text-align: center;
 	text-transform: uppercase;
-	font-family: 'Arial', sans-serif, serif;
+  font-family: 'Yeseva One', cursive;
 }
 
-a {
-  text-decoration: none;
+.header {
+  float: left;
 }
 
-a:link {
-	text-decoration: none;
+.header-nav {
+  padding: 20px;
 }
 
-a:visited {
- 	text-decoration: none;
+.button {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #11567F;
+  border-right:1px solid #bbb;
+  width: 90px;
+  height: 20px;
+  float: right;
+}
+
+.header-nav a {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.header-nav a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #33EF9E;
 }
 
 main {
@@ -62,6 +89,7 @@ table, th, td {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  font-size: 14px;
 }
 
 table {
@@ -78,17 +106,14 @@ td {
   float: left;
   text-align: center;
   height: 302.5px;
-}
-
-.col ul {
-  list-style-type: none;
+  font-family: 'Nunito', sans-serif;
 }
 
 .allowed {
-  background-color: green;
+  background-color: #1CAD85;
 }
 .not-allowed {
-  background-color: red;
+  background-color: #EF274E;
 }
 
 .table {
@@ -97,24 +122,14 @@ td {
 }
 
 footer {
-    height: 75px;
+    height: 10px;
     margin: 20px 30px 0 30px;
     padding: 20px;
     font-size: 14px;
-    color: #5a5a5a;
+    box-shadow: 1px 1px 3px #223;
+    background-color: #FAFDFF;
+    text-align: center;
   }
-
-.footer-nav ul {
-}
-
-.footer-nav li {
-  display: inline;
-  padding: 10px;
-  float: left;
-}
-
 .footer-copyright {
 	padding: 0px;
-    float: right;
-    display: inline;
 }
