@@ -20,7 +20,7 @@
 	 <title>Book Us</title>
 	 <!-- Stylesheet -->
 	 <link rel="stylesheet" type="text/css" href="styles.css">
-   <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Roboto|Nunito|Yeseva+One" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Roboto|Nunito|Yeseva+One|Montserrat" rel="stylesheet">
 
    <!--
    3. Must provide the following information somewhere on each of these pages. (Again this information may not
@@ -49,18 +49,23 @@
  </head>
 
 <body>
+  <!--Start of Header-->
   <header>
     <h1 class="header">Big Time Charter</h1>
-
+    <!--Starts Navigation-->
     <nav class="header-nav">
-      <a href="index.html" class="button">Home</a>
-      <a href="bookus.html" class="active button">Book Us</a>
-      <a href="information.html" class="button">Information</a>
-      <a href="gallery.html" class="button">Gallery</a>
-    </nav>
+      <ul>
+        <li><a href="index.html" class="button">Home</a></li>
+        <li><a href="bookus.html" class="active button">Book Us</a></li>
+        <li><a href="information.html" class="button">Information</a></li>
+        <li><a href="gallery.html" class="button">Gallery</a></li>
+      </ul>
+      </nav>
+    <!--Ends Navigation-->
   </header>
-
-<main>
+  <!--End of Header-->
+  <!--Start of Content-->
+  <main>
 		<table class="table">
 			<caption>Fishing Rate</caption>
 			<thead>
@@ -102,20 +107,13 @@
 <section>
 	<form id="form">
       <fieldset>
-        <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-      </fieldset>
-      <fieldset>
-        <input placeholder="Your Email Address" type="email" tabindex="2" required>
-      </fieldset>
-      <fieldset>
-        <input placeholder="Your Phone Number "type="tel"	tabindex="3" required>
-      </fieldset>
-      <fieldset>
+        <legend>Contact Information</legend>
+        <input placeholder="Your name" type="text" class="input" tabindex="1" required autofocus>
+        <input placeholder="Your Email Address" type="email" class="input" tabindex="2" required>
+        <input placeholder="Your Phone Number "type="tel"	class="input" tabindex="3" pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Must be 555-555-5555" required>
         <textarea placeholder="Type your Message Here...." tabindex="4" required></textarea>
-      </fieldset>
-      <fieldset>
-        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-        <button name="clear" type="reset" id="contact-clear" data-clear="...Clearing">Clear</button>
+        <button name="submit" type="submit" class="input form-btn" id="contact-submit" tabindex="5" data-submit="...Sending">Submit</button>
+        <button name="clear" type="reset" class="input form-btn" id="contact-clear" tabindex="6" data-clear="...Clearing">Clear</button>
       </fieldset>
 	</form>
 </section>
@@ -140,11 +138,13 @@
 		</ul>
 	</div>
 </main>
-
+<!--Ends of Content-->
+<!--Start of Footer-->
 <footer>
   <span class="footer-copyright"><small>
   &copy; 2017 Big Time Charters</small>
 </span>
 	</footer>
+  <!--End of Footer-->
 </body>
 </html>
