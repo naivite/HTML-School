@@ -8,7 +8,6 @@ Purpose:  Styling of webpages
 Includes: index.html, information.html, gallery.html, bookus.html
 */
 
-
 html, body, header, h1{
     padding: 0;
     margin: 0;
@@ -35,7 +34,7 @@ header {
   box-shadow: 1px 1px 3px #223;
   background-color: #FAFDFF;
   text-align: left;
-  height: 30px;
+  height: 60px;
 }
 
 h1 {
@@ -44,22 +43,16 @@ h1 {
 }
 
 .header {
-  float: left;
-  margin-right: 20px;
-  margin-top: 15px;
-}
-
-.header-nav {
-
-}
+  text-align: center;
+} /* Places the <h1> element in the center of the header */
 
 nav {
-  float: right;
   font-size: 15px;
 }
 
 nav ul {
   padding: 0;
+  text-align: center;
 }
 
 nav ul li {
@@ -84,32 +77,6 @@ nav a:hover:not(.active) {
 .active {
     background-color: #33EF9E;
 }
-/*
-nav {
-  padding: 20px;
-}
-
-nav ul {
-  float: right;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline-block;
-}
-
-nav li {
-  float: left;
-  width: 120px;
-  height: 30px;
-  border-right: 1px solid #BBB;
-  background-color: #11567F;
-  overflow: hidden;
-}
-
-*/
 
 main {
   width: 94.75%;
@@ -160,24 +127,61 @@ caption {
   margin-right: auto;
 }
 
+form {
+  margin-top: 20px;
+}
+
+#form {
+  display: inline-block;
+  margin-left: 300px;
+  margin-right: 300px;
+  border: 1px solid;
+  background-color: #11567F;
+}
+
+#form button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+  background-color: #33EF9E;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#form button[type="reset"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+  background-color: #33EF9E;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
 fieldset {
-  margin-left: 220px;
-  margin-right: 220px;
+  border: medium none !important;
 }
 
 .input {
+    text-align: center;
     border-radius: 25px;
     width: 300px;
     height: 30px;
+    font-size: 20px;
 }
 
 textarea {
   width: 300px;
   height: 230px;
+  font-size: 20px;
 }
 
 .form-btn {
     width: 10em;
+    display: inline-block;
 }
 
 footer {
